@@ -1,0 +1,22 @@
+#menu {
+  height: auto;
+  width: 100%;
+  border: 1px solid red;
+  padding: 15px;
+
+}
+
+#menu ul {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+  column-gap: 5px;
+}
+
+#menu ul li {
+  list-style: none;
+  padding: 10px 5px;
+  width: 6rem;
+  text-align: center;
+}
