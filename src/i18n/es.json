@@ -7,5 +7,12 @@
     "skills": "Habilidades",
     "education": "Formación",
     "contact": "Contacto"
+  },
+  "common": {
+    "themeLight": "Cambiar a modo claro",
+    "themeDark": "Cambiar a modo oscuro",
+    "menuOpen": "Abrir menú",
+    "menuClose": "Cerrar menú",
+    "language": "Cambiar idioma"
   }
 }

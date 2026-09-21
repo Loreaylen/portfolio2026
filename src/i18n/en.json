@@ -7,5 +7,12 @@
     "skills": "Skills",
     "education": "Education",
     "contact": "Contact"
+  },
+  "common": {
+    "themeLight": "Switch to light mode",
+    "themeDark": "Switch to dark mode",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "language": "Change language"
   }
 }
