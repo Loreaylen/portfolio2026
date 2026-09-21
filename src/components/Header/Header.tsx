@@ -1,6 +1,8 @@
 import Navbar from "../Navbar/Navbar"
 import { useTranslation } from "react-i18next"
 
+import sunIcon from '@/assets/icons/sol.svg'
+
 const Header = () => {
   const { i18n } = useTranslation()
 
@@ -14,6 +16,7 @@ const Header = () => {
 
   return (
     <header id='header'>
+      <span><img src={sunIcon} alt="Menu" /></span>
       <button onClick={() => { toggleLanguage() }}>{i18n.resolvedLanguage?.toUpperCase()}</button>
       <Navbar />
     </header>
