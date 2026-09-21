@@ -6,7 +6,8 @@ const Navbar = () => {
   const { t } = useTranslation('translation', { keyPrefix: 'nav' })
   
 
-  return (<nav id='menu'>
+  return (
+  <nav id='menu'>
     <ul>
       <li><a href="#home">{t('home')}</a></li>
       <li><a href='#about'>{t('about')}</a></li>
@@ -16,7 +17,8 @@ const Navbar = () => {
       <li><a href='#education'>{t('education')}</a></li>
       <li><a href='#contact'>{t('contact')}</a></li>
     </ul>
-    </nav>)
+    </nav>
+    )
 }
 
 export default Navbar
