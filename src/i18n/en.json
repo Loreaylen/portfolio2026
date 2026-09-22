@@ -8,11 +8,19 @@
     "education": "Education",
     "contact": "Contact"
   },
+  "hero": {
+    "title": "My name is Aylen Gil",
+    "role": "I'm a FullStack Developer",
+    "focus": "Focused on frontend development with React and TypeScript"
+  },
   "common": {
     "themeLight": "Switch to light mode",
     "themeDark": "Switch to dark mode",
     "menuOpen": "Open menu",
     "menuClose": "Close menu",
-    "language": "Change language"
+    "language": "Change language",
+    "linkedin": "Go to LinkedIn",
+    "github": "Go to GitHub",
+    "downloadCv": "Download resume"
   }
 }
