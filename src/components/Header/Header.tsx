@@ -25,12 +25,12 @@ const Header = () => {
 
   return (
     <header id='header'>
-      <button aria-label={isOpen ? t('menuClose') : t('menuOpen')} onClick={() => { toggleMenu() }} ><img src={burguerMenu} alt="Menu" /></button>
+      <button aria-label={isOpen ? t('menuClose') : t('menuOpen')} onClick={() => { toggleMenu() }} ><img src={burguerMenu} alt="" /></button>
       <button onClick={() => { toggleLanguage() }}>{i18n.resolvedLanguage?.toUpperCase()}</button>
       <Navbar />
       <div>
-        <span><img src={sunIcon} alt={t('themeLight')} /></span>
-        <span><img src={moonIcon} alt={t('themeDark')} /></span>
+        <button aria-label={t('themeLight')}><img src={sunIcon} alt="" /></button>
+        <button aria-label={t('themeDark')}><img src={moonIcon} alt="" /></button>
       </div>
     </header>
   )
