@@ -15,7 +15,7 @@ const Hero = () => {
       <div className='actions-container'>
         <button aria-label={t('common.linkedin')}></button>
         <button aria-label={t('common.github')}></button>
-        <button aria-label={t('common.downloadCv')}></button>
+        <a href='#' aria-label={t('common.downloadCvAria')}>{t('common.downloadCv')}</a>
       </div>
       <div className="avatar-container">
         <img src="" alt="avatar" />

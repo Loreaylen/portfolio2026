@@ -21,6 +21,7 @@
     "language": "Change language",
     "linkedin": "Go to LinkedIn",
     "github": "Go to GitHub",
-    "downloadCv": "Download resume"
+    "downloadCv": "Download CV",
+    "downloadCvAria": "Download resume in PDF"
   }
 }
