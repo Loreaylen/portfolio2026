@@ -1,0 +1,55 @@
+{
+  "experience": [
+    {
+      "position": "Product Owner",
+      "company": "OCA LOG",
+      "period": "June 2026 - Present",
+      "responsibilities": [
+        "Responsible for tracking two projects, coordinating the teams involved, participating in meetings, preparing progress reports, communicating status, and managing blockers.",
+        "Managed client integrations, coordinating onboarding, test cases, test and production users, progress tracking, and communication with the areas involved.",
+        "Coordinated between different areas and technical teams to organize requirements, define solutions, and align priorities with business needs."
+      ]
+    },
+    {
+      "position": "Functional Analyst",
+      "company": "OCA LOG",
+      "period": "November 2024 - June 2026",
+      "responsibilities": [
+        "Gathered and analyzed requirements, processes, and functional workflows, working closely with users and development teams.",
+        "Documented and organized features, processes, and integrations to facilitate development, maintenance, and knowledge transfer.",
+        "Provided functional support and resolved questions and incidents by analyzing system behavior and coordinating with development when necessary."
+      ]
+    },
+    {
+      "position": "Backend Developer",
+      "company": "No Country",
+      "period": "February 2024 - March 2024",
+      "responsibilities": [
+        "Internship as part of a development team.",
+        "Developed an MVP for a web application as part of a team.",
+        "Developed and implemented a REST API using Node.js.",
+        "Integrated the API with a React frontend."
+      ]
+    },
+    {
+      "position": "Manual QA",
+      "company": "Arbusta",
+      "period": "August 2023 - November 2024",
+      "responsibilities": [
+        "Designed and executed functional and regression test cases for APIs, web applications, and background services, including scenarios requiring database scripts.",
+        "Reproduced, documented, and tracked bugs in Jira, working closely with development to analyze errors, validate fixes, and perform retesting.",
+        "Contributed to API documentation by providing information about endpoints, parameters, validations, error messages, and test data based on direct experience with their behavior."
+      ]
+    },
+    {
+      "position": "FullStack Developer Trainee",
+      "company": "Arbusta",
+      "period": "February 2023 - August 2023",
+      "responsibilities": [
+        "Developed internal practical projects.",
+        "Received practical training in frontend, backend, and database technologies based on the client's project requirements.",
+        "Analyzed the client's application code to identify the libraries used across its different screens."
+      ]
+    }
+  ]
+}

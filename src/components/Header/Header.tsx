@@ -7,8 +7,8 @@ import moonIcon from '@/assets/icons/moon.svg'
 import burguerMenu from '@/assets/icons/burgerMenu.svg'
 
 const Header = () => {
-  const { i18n, t } = useTranslation('translation', { keyPrefix: 'common' })
-  const [isOpen, useIsOpen] = useState(false)
+  const { i18n, t } = useTranslation('common')
+  const [isOpen, setIsOpen] = useState(false)
 
   const toggleLanguage = () => {
     const currentLanguage: string | undefined = i18n.resolvedLanguage
@@ -19,8 +19,7 @@ const Header = () => {
   }
 
   const toggleMenu = () => {
-    useIsOpen(!isOpen)
-    console.log(isOpen)
+    setIsOpen(prev => !prev);
   }
 
   return (

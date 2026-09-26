@@ -1,0 +1,13 @@
+{
+  "themeLight": "Switch to light mode",
+  "themeDark": "Switch to dark mode",
+  "menuOpen": "Open menu",
+  "menuClose": "Close menu",
+  "navAriaLabel": "Main navigation",
+  "language": "Change language",
+  "linkedin": "Go to LinkedIn",
+  "github": "Go to GitHub",
+  "downloadCv": "Download CV",
+  "downloadCvAria": "Download resume in PDF",
+  "aboutImageAlt": "Photo of Aylen"
+}

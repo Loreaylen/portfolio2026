@@ -19,17 +19,5 @@
       "My experience has allowed me to understand different stages of the software development process and how a business need can be transformed into a technical solution.",
       "I enjoy understanding how things work, bringing structure to information, and leaving each project clearer and more organized than I found it. That's why I care about writing clean code, applying good practices, and building systems that are easy to understand, maintain, and continue developing."
     ]
-  },
-  "common": {
-    "themeLight": "Switch to light mode",
-    "themeDark": "Switch to dark mode",
-    "menuOpen": "Open menu",
-    "menuClose": "Close menu",
-    "language": "Change language",
-    "linkedin": "Go to LinkedIn",
-    "github": "Go to GitHub",
-    "downloadCv": "Download CV",
-    "downloadCvAria": "Download resume in PDF",
-    "aboutImageAlt": "Photo of Aylen"
   }
 }

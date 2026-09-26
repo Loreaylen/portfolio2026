@@ -1,0 +1,55 @@
+{
+  "experience": [
+    {
+      "position": "Product Owner",
+      "company": "OCA LOG",
+      "period": "Junio 2026 - Actualidad",
+      "responsibilities": [
+        "Responsable del seguimiento de 2 proyectos, coordinando a los equipos involucrados, participando en reuniones, elaborando informes de avance, comunicando status y gestionando bloqueantes.",
+        "Gestión de integraciones con clientes, coordinando onboarding, casos de prueba, usuarios de prueba y producción, seguimiento de avances y comunicación con las áreas involucradas.",
+        "Coordinación entre áreas y equipos técnicos para organizar requerimientos, definir soluciones y alinear prioridades según las necesidades del negocio."
+      ]
+    },
+    {
+      "position": "Analista Funcional",
+      "company": "OCA LOG",
+      "period": "Noviembre 2024 - Junio 2026",
+      "responsibilities": [
+        "Relevamiento y análisis de requerimientos, procesos y flujos funcionales, trabajando en conjunto con usuarios y equipos de desarrollo.",
+        "Documentación y organización de funcionalidades, procesos e integraciones para facilitar el desarrollo, mantenimiento y transferencia de conocimiento.",
+        "Soporte funcional y resolución de consultas e incidentes, analizando el comportamiento de los sistemas y articulando con desarrollo cuando era necesario."
+      ]
+    },
+    {
+      "position": "Backend Developer",
+      "company": "No Country",
+      "period": "Febrero 2024 - Marzo 2024",
+      "responsibilities": [
+        "Contrato de prácticas en equipo.",
+        "Desarrollo de un MVP para una aplicación web en equipo.",
+        "Desarrollo e implementación de una API REST con Node.js.",
+        "Integración de la API con un frontend desarrollado en React."
+      ]
+    },
+    {
+      "position": "QA Manual",
+      "company": "Arbusta",
+      "period": "Agosto 2023 - Noviembre 2024",
+      "responsibilities": [
+        "Diseño y ejecución de casos de prueba funcionales y de regresión para APIs, aplicaciones web y servicios background, incluyendo escenarios que requerían ejecución de scripts sobre base de datos.",
+        "Reproducción, documentación y seguimiento de bugs en Jira, trabajando en conjunto con desarrollo para analizar errores, validar correcciones y realizar retesting.",
+        "Colaboración en la documentación de APIs, aportando información sobre endpoints, parámetros, validaciones, mensajes de error y datos de prueba a partir de la experiencia directa con su funcionamiento."
+      ]
+    },
+    {
+      "position": "FullStack Developer Trainee",
+      "company": "Arbusta",
+      "period": "Febrero 2023 - Agosto 2023",
+      "responsibilities": [
+        "Desarrollo de proyectos prácticos internos.",
+        "Capacitación práctica en tecnologías frontend, backend y bases de datos orientadas a las necesidades del proyecto del cliente.",
+        "Análisis de código de aplicaciones del cliente para identificar las librerías utilizadas en sus distintas pantallas."
+      ]
+    }
+  ]
+}
