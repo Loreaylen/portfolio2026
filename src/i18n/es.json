@@ -13,6 +13,13 @@
     "role": "Soy FullStack Developer",
     "focus": "Enfocada en desarrollo frontend con React y TypeScript"
   },
+  "about": {
+    "paragraphs": [
+      "Soy desarrolladora Fullstack, con foco en frontend y experiencia trabajando con React y TypeScript. A lo largo de mi recorrido en sistemas pasé por distintas áreas, como desarrollo, QA, análisis funcional e integraciones.",
+      "Mi trayectoria me permitió conocer diferentes etapas del desarrollo de software y entender cómo una necesidad del negocio puede transformarse en una solución técnica.",
+      "Me gusta entender cómo funcionan las cosas, encontrarle estructura a la información y dejar cada proyecto más claro y ordenado de como lo encontré. Por eso me interesa escribir código limpio, aplicar buenas prácticas y construir sistemas que sean fáciles de entender, mantener y seguir desarrollando."
+    ]
+  },
   "common": {
     "themeLight": "Cambiar a modo claro",
     "themeDark": "Cambiar a modo oscuro",
@@ -22,6 +29,7 @@
     "linkedin": "Ir a LinkedIn",
     "github": "Ir a GitHub",
     "downloadCv": "Descargar CV",
-    "downloadCvAria": "Descargar currículum en PDF"
+    "downloadCvAria": "Descargar currículum en PDF",
+    "aboutImageAlt": "Foto de Aylen"
   }
 }
