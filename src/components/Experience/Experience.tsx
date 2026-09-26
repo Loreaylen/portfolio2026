@@ -1,24 +1,27 @@
 import { useTranslation } from "react-i18next";
+import type { ExperienceData } from "@/types/experience";
 
 const Experience = () => {
   const { t } = useTranslation('experience')
 
-  const jobs = t('experience', {returnObjects:true}) as Array<Object>
+  const jobs = t('experience', { returnObjects: true }) as Array<ExperienceData>
 
-  console.log(jobs[0])
-
-  return(
+  return (
     <section id="experience">
       {
-        jobs.map((job:object, i:number) => (
+        jobs.map((job: ExperienceData, i: number) => (
           <article key={i}>
-            <h2>{t('position')}</h2>
-            <span></span>
+            <h2>{job.position}</h2>
+            <span>{job.company}</span>
+            <span>{job.period}</span>
             <ul>
-              for()
+              {
+                job.responsibilities.map((bullet, i) =>
+                  <li key={i}>{bullet}</li>)
+              }
             </ul>
           </article>
-        ) )
+        ))
       }
     </section>
   )
