@@ -12,6 +12,23 @@
       "imageAlt": "View of Samuel's portfolio featuring a photography gallery",
       "githubUrl": "https://github.com/Codelens-work/-Portfolio-Samuel-Carranza",
       "siteUrl": "https://samuel-carranza.vercel.app/"
+    },
+    {
+      "name": "Avocado",
+      "description": "Thesis project for the Web Development Technical Degree. Avocado is a mobile and web application for creating, sharing, and discovering recipes. My contribution focused mainly on backend development and database modeling, as well as participating in mobile development by creating views and integrating them with the backend.",
+      "technologies": [
+        "TypeScript",
+        "Angular",
+        "Node.js",
+        "Express",
+        "MySQL",
+        "Java"
+      ],
+      "imageUrl": "",
+      "imageAlt": "Website Home",
+      "githubUrl": "https://github.com/Nervios-de-Acero/tesis-avocado",
+      "siteUrl": "",
+      "demoUrl": ""
     }
   ]
 }

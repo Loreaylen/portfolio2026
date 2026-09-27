@@ -12,6 +12,23 @@
       "imageAlt": "Vista del portfolio de Samuel con una galería de fotografías",
       "githubUrl": "https://github.com/Codelens-work/-Portfolio-Samuel-Carranza",
       "siteUrl": "https://samuel-carranza.vercel.app/"
+    },
+    {
+      "name": "Avocado",
+      "description": "Proyecto de tesis para la Tecnicatura. Avocado es una aplicación mobile y web para crear, compartir y descubrir recetas. Mi aporte se centró principalmente en el desarrollo del backend y el modelado de la base de datos, además de participar en el desarrollo mobile, creando vistas e integrándolas con el backend.",
+      "technologies": [
+        "TypeScript",
+        "Angular",
+        "Node.js",
+        "Express",
+        "MySQL",
+        "Java"
+      ],
+      "imageUrl": "",
+      "imageAlt": "Pantalla de inicio del sitio web",
+      "githubUrl": "https://github.com/Nervios-de-Acero/tesis-avocado",
+      "siteUrl": "",
+      "demoUrl": ""
     }
   ]
 }
