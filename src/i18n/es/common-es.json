@@ -5,9 +5,11 @@
   "menuClose": "Cerrar menú",
   "navAriaLabel": "Navegación principal",
   "language": "Cambiar idioma",
-  "linkedin": "Ir a LinkedIn",
-  "github": "Ir a GitHub",
+  "linkedin": "Ir a LinkedIn en una pestaña nueva",
+  "github": "Ir a GitHub en una pestaña nueva",
   "downloadCv": "Descargar CV",
   "downloadCvAria": "Descargar currículum en PDF",
-  "aboutImageAlt": "Foto de Aylen"
+  "aboutImageAlt": "Foto de Aylen",
+  "site": "Visitar sitio en una pestaña nueva",
+  "demo": "Ver demo en una pestaña nueva"
 }

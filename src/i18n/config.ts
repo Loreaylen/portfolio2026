@@ -7,8 +7,8 @@ import commonEs from './es/common-es.json'
 import commonEn from './en/common-en.json'
 import experienceEn from './en/experience-en.json'
 import experienceEs from './es/experience-es.json'
-/* import projectsEs from './es/projects-es.json'
-import projectsEn from './en/projects-en.json' */
+import projectsEs from './es/projects-es.json'
+import projectsEn from './en/projects-en.json'
 
 i18next
   .use(initReactI18next)
@@ -20,13 +20,13 @@ i18next
         translation: en,
         common: commonEn,
         experience: experienceEn,
-       /*  projects: projectsEn */
+        projects: projectsEn
       },
       es: {
         translation: es,
         common: commonEs,
         experience: experienceEs,
-      /*   projects: projectsEs */
+        projects: projectsEs
       }
     }
   })

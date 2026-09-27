@@ -5,9 +5,11 @@
   "menuClose": "Close menu",
   "navAriaLabel": "Main navigation",
   "language": "Change language",
-  "linkedin": "Go to LinkedIn",
-  "github": "Go to GitHub",
+  "linkedin": "Go to LinkedIn in a new tab",
+  "github": "Go to GitHub in a new tab",
   "downloadCv": "Download CV",
   "downloadCvAria": "Download resume in PDF",
-  "aboutImageAlt": "Photo of Aylen"
+  "aboutImageAlt": "Photo of Aylen",
+  "site": "Visit website in a new tab",
+  "demo": "View demo in a new tab"
 }

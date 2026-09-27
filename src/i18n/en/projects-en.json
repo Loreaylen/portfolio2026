@@ -1,0 +1,17 @@
+{
+  "title": "Projects",
+  "projects": [
+    {
+      "name": "Samuel Carranza's Portfolio",
+      "description": "Collaborative project to create a photography and video portfolio. My contribution focused mainly on implementing the i18n structure, developing the Hero, and building the entire portfolio section, including image galleries, videos, and a featured content section. I also developed the gallery interaction logic, including fullscreen content viewing.",
+      "technologies": [
+        "React",
+        "JavaScript"
+      ],
+      "imageUrl": "/placeholder",
+      "imageAlt": "View of Samuel's portfolio featuring a photography gallery",
+      "githubUrl": "https://github.com/Codelens-work/-Portfolio-Samuel-Carranza",
+      "siteUrl": "https://samuel-carranza.vercel.app/"
+    }
+  ]
+}
