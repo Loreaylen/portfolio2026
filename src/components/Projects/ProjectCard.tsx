@@ -1,10 +1,29 @@
-import type { Action, ProjectData } from "@/types/projects";
-import { useTranslation } from "react-i18next";
+import type { ProjectData } from "@/types/projects";
+import type { Actions } from "@/types/actions";
 import githubIcon from "@/assets/icons/github.png"
+import siteIcon from "@/assets/icons/web.svg"
+import demoIcon from "@/assets/icons/play.svg"
+import ActionButton from "../ActionButton/ActionButton";
 
 const ProjectCard = ({ project, i }: { project: ProjectData; i: number }) => {
-  const { t } = useTranslation(['projects', 'common'])
-  const actionUrls: Action[] = ['githubUrl', 'siteUrl', 'demoUrl']
+  
+  const actions: Actions[] = [
+{
+  url: 'githubUrl',
+  icon: githubIcon,
+  label: 'github'
+},
+{
+  url: 'siteUrl',
+  icon: siteIcon,
+  label: 'site'
+},
+{
+  url: 'demoUrl',
+  icon: demoIcon,
+  label:'demo'
+}
+  ]
 
   return (
 <article key={i}>
@@ -15,23 +34,15 @@ const ProjectCard = ({ project, i }: { project: ProjectData; i: number }) => {
               </div>
               <div>
                 {
-                  project.technologies.map((tag: string, i: number) => (
-                    <span key={i}>{tag}</span>
+                  project.technologies.map((tag: string) => (
+                    <span key={tag}>{tag}</span>
                   ))
                 }
               </div>
               <div>
                 {
-                  actionUrls.map((action) => {
-                    const url = project[action]
-                    if (!url) return null
-
-                    const label = action.slice(0, -3)
-                    return (
-                      <a key={action} href={url} target="_blank" aria-label={t(label, { ns: 'common' })}>
-                        <img src={githubIcon} alt="" />
-                      </a>
-                    )
+                  actions.map((action) => {
+                  return  <ActionButton key={action.label} project={project} action={action} />
                   })
                 }
               </div>

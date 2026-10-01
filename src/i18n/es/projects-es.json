@@ -8,7 +8,7 @@
         "React",
         "JavaScript"
       ],
-      "imageUrl": "/placeholder",
+      "imageUrl": "/src/assets/img/portfolio-samu.webp",
       "imageAlt": "Vista del portfolio de Samuel con una galería de fotografías",
       "githubUrl": "https://github.com/Codelens-work/-Portfolio-Samuel-Carranza",
       "siteUrl": "https://samuel-carranza.vercel.app/"
@@ -24,7 +24,7 @@
         "MySQL",
         "Java"
       ],
-      "imageUrl": "",
+      "imageUrl": "/src/assets/img/portfolio-samu.webp",
       "imageAlt": "Pantalla de inicio del sitio web",
       "githubUrl": "https://github.com/Nervios-de-Acero/tesis-avocado",
       "siteUrl": "",

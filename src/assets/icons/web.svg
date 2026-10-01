@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 26.458333 26.458333"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="web2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="3.9660278"
+     inkscape:cx="20.549528"
+     inkscape:cy="67.699979"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="2391"
+     inkscape:window-y="464"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3">
+    <sodipodi:guide
+       position="1.3229167,23.8125"
+       orientation="-1,0"
+       id="guide1"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="25.135416,18.419486"
+       orientation="-1,0"
+       id="guide2"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="-1.7678792,25.135416"
+       orientation="0,1"
+       id="guide3"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="-1.9953466,1.3229167"
+       orientation="0,1"
+       id="guide4"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="13.229166,13.229166"
+       orientation="0,1"
+       id="guide6"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="13.229166,13.229166"
+       orientation="-1,0"
+       id="guide7"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="-4.6365135,15.617564"
+       orientation="1,0"
+       id="guide19"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="horizontales"
+     sodipodi:insensitive="true">
+    <g
+       id="g10">
+      <path
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="M 4.2496969,13.270356 22.208636,13.187977"
+         id="path5" />
+      <path
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.255094;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="M 5.1517355,17.274475 21.306599,17.189348"
+         id="path6" />
+      <path
+         style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.255094;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         d="M 5.1517344,9.3029806 21.306598,9.2178536"
+         id="path10" />
+    </g>
+  </g>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     sodipodi:insensitive="true">
+    <circle
+       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="path4"
+       cx="13.229167"
+       cy="13.229167"
+       r="9.031949" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="verticales">
+    <path
+       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       d="M 13.229167,4.1972179 V 22.261116"
+       id="path12"
+       sodipodi:insensitive="true" />
+    <ellipse
+       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.390567;stroke-linecap:round;stroke-linejoin:round"
+       id="path1"
+       cx="13.229167"
+       cy="13.229167"
+       rx="4.2273273"
+       ry="9.0259447" />
+  </g>
+</svg>

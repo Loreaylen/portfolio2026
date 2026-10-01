@@ -13,7 +13,7 @@ const Projects = () => {
       <div>
         {
           projects.map((project: ProjectData, i: number) => {
-            return (<ProjectCard project={project} i={i} /> )
+            return (<ProjectCard project={project} key={i} i={i}  /> )
           })
         }
       </div>
