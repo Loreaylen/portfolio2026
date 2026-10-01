@@ -9,4 +9,3 @@ export type ProjectData = {
   demoUrl?: string
 }
 
-export type Action = 'githubUrl'| 'siteUrl' |'demoUrl'

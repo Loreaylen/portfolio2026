@@ -4,6 +4,7 @@ import Hero from './components/Hero/Hero'
 import About from './components/About/About'
 import Experience from './components/Experience/Experience.tsx'
 import Projects from './components/Projects/Projects.tsx'
+import Skills from './components/Skills/Skills.tsx'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <About/>
         <Experience/>
         <Projects/>
+        <Skills/>
       </main>
     </>
   )

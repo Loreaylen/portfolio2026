@@ -1,0 +1,99 @@
+{
+  "skills": [
+    {
+      "name": "HTML",
+      "icon": "",
+      "category": "frontend"
+    },
+    {
+      "name": "CSS",
+      "icon": "",
+      "category": "frontend"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "",
+      "category": "frontend"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "",
+      "category": "frontend"
+    },
+    {
+      "name": "React",
+      "icon": "",
+      "category": "frontend"
+    },
+    {
+      "name": "Node.js",
+      "icon": "",
+      "category": "backend"
+    },
+    {
+      "name": "Express",
+      "icon": "",
+      "category": "backend"
+    },
+    {
+      "name": "REST APIs",
+      "icon": "",
+      "category": "backend"
+    },
+    {
+      "name": "MySQL",
+      "icon": "",
+      "category": "database"
+    },
+    {
+      "name": "SQL Server",
+      "icon": "",
+      "category": "database"
+    },
+    {
+      "name": "Git",
+      "icon": "",
+      "category": "tools"
+    },
+    {
+      "name": "GitHub",
+      "icon": "",
+      "category": "tools"
+    },
+    {
+      "name": "Visual Studio Code",
+      "icon": "",
+      "category": "tools"
+    },
+    {
+      "name": "Jira",
+      "icon": "",
+      "category": "tools"
+    },
+    {
+      "name": "Confluence",
+      "icon": "",
+      "category": "tools"
+    },
+    {
+      "name": "Trello",
+      "icon": "",
+      "category": "tools"
+    },
+    {
+      "name": "Notion",
+      "icon": "",
+      "category": "tools"
+    },
+    {
+      "name": "Miro",
+      "icon": "",
+      "category": "tools"
+    },
+    {
+      "name": "Microsoft Visio",
+      "icon": "",
+      "category": "tools"
+    }
+  ]
+}
