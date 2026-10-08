@@ -37,7 +37,7 @@ const Skills = () => {
           skillsList.map((skill: Skill, i: number) => {
             if (skill.category === selectedCategory || selectedCategory === null) {
               return <article key={i}>
-                <img src="/placeholder" alt={skill.name} />
+                <img src={skill.icon} alt={skill.name} />
                 <span>{skill.name}</span>
               </article>
             }

@@ -2,97 +2,62 @@
   "skills": [
     {
       "name": "HTML",
-      "icon": "",
+      "icon": "/src/assets/icons/html-5.png",
       "category": "frontend"
     },
     {
       "name": "CSS",
-      "icon": "",
+      "icon": "/src/assets/icons/css-3.png",
       "category": "frontend"
     },
     {
       "name": "JavaScript",
-      "icon": "",
+      "icon": "/src/assets/icons/js.png",
       "category": "frontend"
     },
     {
       "name": "TypeScript",
-      "icon": "",
+      "icon": "/src/assets/icons/typescript.png",
       "category": "frontend"
     },
     {
       "name": "React",
-      "icon": "",
+      "icon": "/src/assets/icons/reactJs.png",
       "category": "frontend"
     },
     {
       "name": "Node.js",
-      "icon": "",
+      "icon": "/src/assets/icons/node-js.png",
       "category": "backend"
     },
     {
       "name": "Express",
-      "icon": "",
-      "category": "backend"
-    },
-    {
-      "name": "REST APIs",
-      "icon": "",
+      "icon": "/src/assets/icons/icons8-express-js.png",
       "category": "backend"
     },
     {
       "name": "MySQL",
-      "icon": "",
+      "icon": "/src/assets/icons/mysql.png",
       "category": "database"
     },
     {
       "name": "SQL Server",
-      "icon": "",
+      "icon": "/src/assets/icons/sql-server.png",
       "category": "database"
     },
     {
       "name": "Git",
-      "icon": "",
+      "icon": "/src/assets/icons/icons8-git.png",
       "category": "tools"
     },
     {
       "name": "GitHub",
-      "icon": "",
+      "icon": "/src/assets/icons/github.png",
       "category": "tools"
     },
     {
       "name": "Visual Studio Code",
-      "icon": "",
-      "category": "tools"
-    },
-    {
-      "name": "Jira",
-      "icon": "",
-      "category": "tools"
-    },
-    {
-      "name": "Confluence",
-      "icon": "",
-      "category": "tools"
-    },
-    {
-      "name": "Trello",
-      "icon": "",
-      "category": "tools"
-    },
-    {
-      "name": "Notion",
-      "icon": "",
-      "category": "tools"
-    },
-    {
-      "name": "Miro",
-      "icon": "",
-      "category": "tools"
-    },
-    {
-      "name": "Microsoft Visio",
-      "icon": "",
+      "icon": "/src/assets/icons/icons8-vsc.png",
       "category": "tools"
     }
   ]
