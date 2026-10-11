@@ -22,12 +22,13 @@ const Skills = () => {
       <div>
         {categories.map((category: Category) => {
           return (
-            <span
+            <button
               key={category}
+              aria-pressed={category === selectedCategory}
               onClick={() => selectCategory(category)}
             >
               {category}
-            </span>
+            </button>
           )
         })
         }
