@@ -1,0 +1,39 @@
+{
+  "title": "Education",
+  "academicTitle": "Academic Education",
+  "coursesTitle": "Courses and Training",
+  "academic": [
+    {
+      "title": "Higher Technician in Web Development & Digital Applications",
+      "institution": "Instituto Superior Politécnico Córdoba",
+      "period": "2022-2024"
+    }
+  ],
+  "courses": [
+    {
+      "title": "Web Development. Frontend Developer, Project management and Emotional Intelligence",
+      "institution": "BA Multiplica 2.0",
+      "period": "December 2022"
+    },
+    {
+      "title": "Scrum fundamentals certified",
+      "institution": "SCRUMstudy",
+      "period": "July 2022"
+    },
+    {
+      "title": "React.js Development",
+      "institution": "CoderHouse",
+      "period": "November 2021"
+    },
+    {
+      "title": "Javascript Development",
+      "institution": "CoderHouse",
+      "period": "August 2021"
+    },
+    {
+      "title": "Web Development",
+      "institution": "CoderHouse",
+      "period": "May 2021"
+    }
+  ]
+}

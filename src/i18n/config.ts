@@ -9,6 +9,8 @@ import experienceEn from './en/experience-en.json'
 import experienceEs from './es/experience-es.json'
 import projectsEs from './es/projects-es.json'
 import projectsEn from './en/projects-en.json'
+import educationEs from './es/education-es.json'
+import educationEn from './en/education-en.json'
 
 i18next
   .use(initReactI18next)
@@ -20,13 +22,15 @@ i18next
         translation: en,
         common: commonEn,
         experience: experienceEn,
-        projects: projectsEn
+        projects: projectsEn,
+        education: educationEn
       },
       es: {
         translation: es,
         common: commonEs,
         experience: experienceEs,
-        projects: projectsEs
+        projects: projectsEs,
+        education: educationEs
       }
     }
   })

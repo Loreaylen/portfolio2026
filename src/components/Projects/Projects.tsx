@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCard"
 const Projects = () => {
 
   const { t } = useTranslation('projects')
-  const projects = t('projects', { ns: 'projects', returnObjects: true }) as Array<ProjectData>
+  const projects = t('projects', { returnObjects: true }) as Array<ProjectData>
 
   return (
     <section id='projects'>

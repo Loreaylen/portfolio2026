@@ -5,6 +5,7 @@ import About from './components/About/About'
 import Experience from './components/Experience/Experience.tsx'
 import Projects from './components/Projects/Projects.tsx'
 import Skills from './components/Skills/Skills.tsx'
+import Education from './components/Education/Education.tsx'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Experience/>
         <Projects/>
         <Skills/>
+        <Education/>
       </main>
     </>
   )

@@ -22,5 +22,8 @@
   },
   "skills": {
     "title": "Skills"
+  },
+  "experience": {
+    "title": "Work Experience"
   }
 }

@@ -1,0 +1,39 @@
+{
+  "title": "Formación",
+  "academicTitle": "Formación académica",
+  "coursesTitle": "Cursos y capacitaciones",
+  "academic": [
+    {
+      "title": "Tecnicatura Superior en Desarrollo Web y Aplicaciones Digitales",
+      "institution": "Instituto Superior Politécnico Córdoba",
+      "period": "2022-2024"
+    }
+  ],
+  "courses": [
+    {
+      "title": "Programación Web. Frontend Developer, Gestión de proyectos e inteligencia emocional",
+      "institution": "BA Multiplica 2.0",
+      "period": "Diciembre 2022"
+    },
+    {
+      "title": "Scrum fundamentals certified",
+      "institution": "SCRUMstudy",
+      "period": "Julio 2022"
+    },
+    {
+      "title": "Desarrollo con React JS",
+      "institution": "CoderHouse",
+      "period": "Noviembre 2021"
+    },
+    {
+      "title": "Desarrollo con JavaScript",
+      "institution": "CoderHouse",
+      "period": "Agosto 2021"
+    },
+    {
+      "title": "Desarrollo Web",
+      "institution": "CoderHouse",
+      "period": "Mayo 2021"
+    }
+  ]
+}
