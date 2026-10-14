@@ -25,5 +25,9 @@
   },
   "experience": {
     "title": "Work Experience"
-  }
+  },
+  "contact": {
+  "title": "Contact",
+  "description": "If you'd like to learn more about my work or get in touch, you can reach me by email or find me on LinkedIn."
+}
 }

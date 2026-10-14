@@ -12,30 +12,32 @@ const Education = () => {
   return (
     <section id='education'>
       <h2>{t('title')}</h2>
-      <article>
+      <div>
         <h3>{t('academicTitle')}</h3>
         {
           academic.map((item) => {
             return <EducationCard
+              key={item.title}
               title={item.title}
               institution={item.institution}
               period={item.period}
             />
           })
         }
-      </article>
-      <article>
+      </div>
+      <div>
         <h3>{t('coursesTitle')}</h3>
         {
           courses.map((item) => {
             return <EducationCard
+              key={item.title}
               title={item.title}
               institution={item.institution}
               period={item.period}
             />
           })
         }
-      </article>
+      </div>
     </section>
   )
 }

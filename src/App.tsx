@@ -6,6 +6,7 @@ import Experience from './components/Experience/Experience.tsx'
 import Projects from './components/Projects/Projects.tsx'
 import Skills from './components/Skills/Skills.tsx'
 import Education from './components/Education/Education.tsx'
+import Contact from './components/Contact/Contact.tsx'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Projects/>
         <Skills/>
         <Education/>
+        <Contact/>
       </main>
     </>
   )

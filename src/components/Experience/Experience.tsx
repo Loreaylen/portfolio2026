@@ -13,7 +13,7 @@ const Experience = () => {
       {
         jobs.map((job: ExperienceData, i: number) => (
           <article key={i}>
-            <h2>{job.position}</h2>
+            <h3>{job.position}</h3>
             <span>{job.company}</span>
             <span>{job.period}</span>
             <ul>
