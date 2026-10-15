@@ -3,7 +3,7 @@ import type { Actions } from "@/types/actions";
 import githubIcon from "@/assets/icons/github.png"
 import siteIcon from "@/assets/icons/web.svg"
 import demoIcon from "@/assets/icons/play.svg"
-import ActionButton from "../ActionButton/ActionButton";
+import ActionLink from "../ActionLink/ActionLink";
 
 const ProjectCard = ({ project, i }: { project: ProjectData; i: number }) => {
   
@@ -42,7 +42,7 @@ const ProjectCard = ({ project, i }: { project: ProjectData; i: number }) => {
               <div>
                 {
                   actions.map((action) => {
-                  return  <ActionButton key={action.label} project={project} action={action} />
+                  return  <ActionLink key={action.label} project={project} action={action} />
                   })
                 }
               </div>

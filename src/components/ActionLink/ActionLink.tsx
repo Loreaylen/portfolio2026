@@ -3,7 +3,7 @@ import type { Actions } from "@/types/actions"
 import { useTranslation } from "react-i18next"
 
 
-const ActionButton = ({project, action}: {project:ProjectData, action:Actions}) => {
+const ActionLink = ({project, action}: {project:ProjectData, action:Actions}) => {
 
   const { t } = useTranslation(['projects', 'common'])
   const url = project[action.url]
@@ -16,4 +16,4 @@ const ActionButton = ({project, action}: {project:ProjectData, action:Actions}) 
                     )
 }
 
-export default ActionButton
+export default ActionLink
