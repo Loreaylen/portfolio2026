@@ -32,5 +32,10 @@ i18next
         projects: projectsEs,
         education: educationEs
       }
+    },
+    react: {
+    transEmptyNodeValue: '', 
+    transSupportBasicHtmlNodes: true, 
+    transKeepBasicHtmlNodesFor: ['br', 'strong', 'i', 'a']
     }
   })

@@ -6,10 +6,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <h2>{t('title')}</h2>
-      <p>{t('description')}</p>
-      <div>
-        
-      </div>
+      <p>{t('description')}</p> 
     </section>
   )
 }

@@ -27,7 +27,29 @@
     "title": "Work Experience"
   },
   "contact": {
-  "title": "Contact",
-  "description": "If you'd like to learn more about my work or get in touch, you can reach me by email or find me on LinkedIn."
-}
+    "title": "Contact",
+    "description": "If you'd like to learn more about my work or get in touch, you can reach me by email or find me on LinkedIn."
+  },
+  "footer": {
+    "copyright": "© 2026 Aylen. All rights reserved.",
+    "attributionsTitle": "Icon attributions",
+    "attributions": [
+      {
+        "text": "GitHub — <a>Pixel perfect (Flaticon)</a>",
+        "url": "https://www.flaticon.com/authors/pixel-perfect"
+      },
+      {
+        "text": "React —<a> pocike (Flaticon)</a>",
+        "url": "https://www.flaticon.com/authors/pocike"
+      },
+      {
+        "text": "JavaScript, TypeScript, HTML5, CSS3, MySQL, SQL Server, and Node.js — <a>Magnific (Flaticon)</a>",
+        "url": "https://www.flaticon.com/authors/magnific"
+      },
+      {
+        "text": "Express.js, Git, and Visual Studio Code — <a>Icons8</a>",
+        "url": "https://icons8.com"
+      }
+    ]
+  }
 }

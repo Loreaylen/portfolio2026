@@ -29,5 +29,27 @@
   "contact": {
     "title": "Contacto",
     "description": "Si querés conocer más sobre mi trabajo o ponerte en contacto conmigo, podés escribirme por email o encontrarme en LinkedIn."
+  },
+  "footer": {
+    "copyright": "© 2026 Aylen. Todos los derechos reservados.",
+    "attributionsTitle": "Atribuciones de íconos",
+    "attributions": [
+      {
+        "text": "GitHub — <a>Pixel perfect (Flaticon)</a>",
+        "url": "https://www.flaticon.com/authors/pixel-perfect"
+      },
+      {
+        "text": "React — <a> pocike (Flaticon)</a>",
+        "url": "https://www.flaticon.com/authors/pocike"
+      },
+      {
+        "text": "JavaScript, TypeScript, HTML5, CSS3, MySQL, SQL Server y Node.js — <a> Magnific (Flaticon)</a>",
+        "url": "https://www.flaticon.com/authors/magnific"
+      },
+      {
+        "text": "Express.js, Git y Visual Studio Code — <a> Icons8</a>",
+        "url": "https://icons8.com"
+      }
+    ]
   }
 }
