@@ -12,7 +12,7 @@ const Header = () => {
 
   const toggleLanguage = () => {
     const currentLanguage: string | undefined = i18n.resolvedLanguage
-    if (currentLanguage === undefined || currentLanguage === 'es'){
+    if (currentLanguage === undefined || currentLanguage === 'es') {
       i18n.changeLanguage('en')
     }
     else i18n.changeLanguage('es')

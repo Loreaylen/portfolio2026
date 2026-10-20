@@ -1,8 +1,8 @@
-import type { Actions } from "@/types/actions"
+import type { Action } from "@/types/actions"
 import { useTranslation } from "react-i18next"
 
 
-const ActionLink = ({ action, url }: { action: Actions, url: string | null }) => {
+const ActionLink = ({ action, url }: { action: Action, url: string | null }) => {
 
   const { t } = useTranslation(['projects', 'common'])
   if (!url) return null

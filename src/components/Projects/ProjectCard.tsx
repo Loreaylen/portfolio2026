@@ -1,5 +1,5 @@
 import type { ProjectData } from "@/components/Projects/projects.types";
-import type { Actions } from "@/types/actions";
+import type { Action } from "@/types/actions";
 import githubIcon from "@/assets/icons/github.png"
 import siteIcon from "@/assets/icons/web.svg"
 import demoIcon from "@/assets/icons/play.svg"
@@ -7,7 +7,7 @@ import ActionLink from "../ActionLink/ActionLink";
 
 const ProjectCard = ({ project, i }: { project: ProjectData; i: number }) => {
 
-  const actions: Actions[] = [
+  const actions: Action[] = [
     {
       url: 'githubUrl',
       icon: githubIcon,
