@@ -18,8 +18,8 @@ const Hero = () => {
         <span>{t('hero.focus',{ns:'translation'})}</span>
       </div>
       <div className='actions-container'>
-        <button aria-label={t('linkedin', {ns:'common'})}><img src={githubIcon} alt="" /></button>
-        <button aria-label={t('github', {ns:'common'})}><img src={linkedinIcon} alt="" /></button>
+        <button aria-label={t('github', {ns:'common'})}><img src={githubIcon} alt="" /></button>
+        <button aria-label={t('linkedin', {ns:'common'})}><img src={linkedinIcon} alt="" /></button>
         <a href={language === 'en' ? cvEn : cvEs} download aria-label={t('downloadCvAria', {ns:'common'})}>{t('downloadCv', {ns:'common'})}</a>
       </div>
     </section>

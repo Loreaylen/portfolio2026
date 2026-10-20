@@ -1,19 +1,17 @@
-import type { ProjectData } from "@/types/projects"
 import type { Actions } from "@/types/actions"
 import { useTranslation } from "react-i18next"
 
 
-const ActionLink = ({project, action}: {project:ProjectData, action:Actions}) => {
+const ActionLink = ({ action, url }: { action: Actions, url: string | null }) => {
 
   const { t } = useTranslation(['projects', 'common'])
-  const url = project[action.url]
-                    if (!url) return null
+  if (!url) return null
 
-                    return (
-                      <a href={url} target="_blank" aria-label={t(action.label, { ns: 'common' })}>
-                        <img src={action.icon} alt="" />
-                      </a>
-                    )
+  return (
+    <a href={url} target="_blank" rel='noopener' referrerPolicy="no-referrer" aria-label={t(action.label, { ns: 'common' })}>
+      <img src={action.icon} alt="" />
+    </a>
+  )
 }
 
 export default ActionLink
