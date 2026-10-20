@@ -1,7 +1,14 @@
 import { useTranslation } from "react-i18next"
 import { useState } from "react"
-import type { Skill, Category } from "@/types/skill"
 import skillsData from '@/assets/data/skills.json'
+
+type Category = "frontend" | "backend" | "database" | "tools"
+
+interface Skill {
+  name: string,
+  icon: string,
+  category: Category
+}
 
 const Skills = () => {
   const { t } = useTranslation('translation', { keyPrefix: 'skills' })

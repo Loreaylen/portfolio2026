@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import type { ExperienceData } from "@/types/experience";
+import type { ExperienceData } from "@/components/Experience/experience.types";
 
 const Experience = () => {
   const { t } = useTranslation(['experience', 'translation'])

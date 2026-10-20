@@ -1,4 +1,4 @@
-import type { ProjectData } from "@/types/projects";
+import type { ProjectData } from "@/components/Projects/projects.types";
 import type { Actions } from "@/types/actions";
 import githubIcon from "@/assets/icons/github.png"
 import siteIcon from "@/assets/icons/web.svg"

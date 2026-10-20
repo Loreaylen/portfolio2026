@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import EducationCard from "./EducationCard"
-import type { EducationData } from "@/types/education";
+import type { EducationData } from "@/components/Education/education.types";
 
 const Education = () => {
 

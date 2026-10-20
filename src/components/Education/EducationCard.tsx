@@ -1,4 +1,4 @@
-import type { EducationData } from "@/types/education"
+import type { EducationData } from "@/components/Education/education.types"
 
 const EducationCard = ({title, institution, period }: EducationData) => {
 

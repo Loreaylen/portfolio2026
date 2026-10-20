@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import type { ProjectData } from "@/types/projects";
+import type { ProjectData } from "@/components/Projects/projects.types";
 import ProjectCard from "./ProjectCard"
 
 const Projects = () => {
