@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
-import githubIcon from '@/assets/icons/github.png'
-import linkedinIcon from '@/assets/icons/linkedin.png'
+import SocialLink from '../SocialLink/SocialLink'
 import cvEn from '/cv/AylenGil_CV_EN.pdf'
 import cvEs from '/cv/AylenGil_CV_ES.pdf'
 
@@ -18,8 +17,8 @@ const Hero = () => {
         <span>{t('hero.focus',{ns:'translation'})}</span>
       </div>
       <div className='actions-container'>
-        <button aria-label={t('github', {ns:'common'})}><img src={githubIcon} alt="" /></button>
-        <button aria-label={t('linkedin', {ns:'common'})}><img src={linkedinIcon} alt="" /></button>
+        <SocialLink socialType='github'/>
+        <SocialLink socialType='linkedin'/>
         <a href={language === 'en' ? cvEn : cvEs} download aria-label={t('downloadCvAria', {ns:'common'})}>{t('downloadCv', {ns:'common'})}</a>
       </div>
     </section>
