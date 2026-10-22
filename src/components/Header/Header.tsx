@@ -1,6 +1,6 @@
 import Navbar from "../Navbar/Navbar"
 import { useTranslation } from "react-i18next"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 import sunIcon from '@/assets/icons/sol.svg'
 import moonIcon from '@/assets/icons/moon.svg'
