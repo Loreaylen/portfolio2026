@@ -7,13 +7,15 @@ import Skills from './components/Skills/Skills.tsx'
 import Education from './components/Education/Education.tsx'
 import Contact from './components/Contact/Contact.tsx'
 import Footer from './components/Footer/Footer.tsx'
+import ThemeProvider from './context/ThemeContext.tsx'
 
 function App() {
 
   return (
     <>
+    <ThemeProvider>
       <Header /> 
-      <main className='bg-bg-theme'>
+      <main>
         <Hero/>
         <About/>
         <Experience/>
@@ -21,8 +23,9 @@ function App() {
         <Skills/>
         <Education/>
         <Contact/>
-        <Footer/>
       </main>
+      <Footer/>
+      </ThemeProvider>
     </>
   )
 }
