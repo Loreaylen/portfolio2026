@@ -10,7 +10,7 @@ interface SocialProps {
   icon: string
 }
 
-const SocialLink = ({ socialType }: { socialType: Social }) => {
+const SocialLink = ({ socialType, className }: { socialType: Social, className: string }) => {
 
   const { t } = useTranslation('common')
 
@@ -31,10 +31,10 @@ const SocialLink = ({ socialType }: { socialType: Social }) => {
 
   return (
     <a
+      className={className}
       href={socialData[socialType].url}
       aria-label={t(socialType)}
-      rel='noopener'
-      referrerPolicy='no-referrer'
+      {...socialType !== 'email' ? {rel: 'noopener no-referrer', target: '_blank'} : {}}
     >
       <img src={socialData[socialType].icon} alt="" />
     </a>
