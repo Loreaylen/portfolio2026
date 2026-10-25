@@ -7,7 +7,7 @@
   --color-border:  var(--ui-border);
   --color-text-primary: var(--ui-text-pr);
   --color-text-secondary:var(--ui-text-sec);
-  --color-accent:var(--ui-accent) ;
+  --color-action:var(--ui-accent) ;
   --color-link:var(--ui-link) ;
 }
 
@@ -22,11 +22,11 @@
 }
 
 [data-theme="light"]{
-  --ui-bg: #f4f4f4;
-  --ui-cards: #202522;
-  --ui-border:#526157;
-  --ui-text-pr:#F4F6F4;
-  --ui-text-sec:#B9C2BA;
-  --ui-link:#A8D9B0;
-  --ui-accent:#8FC99A;
+  --ui-bg: #FAFAF8;
+  --ui-cards: #FFFFFF;
+  --ui-border:#737D73;
+  --ui-text-pr:#242824;
+  --ui-text-sec:#444B44;
+  --ui-link:#2D4934;
+  --ui-accent:#2D4934;
 }

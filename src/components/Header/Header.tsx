@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next"
 import { useState, useContext } from "react"
 import { ThemeContext } from '@/context/ThemeContext'
 import type { Theme } from "@/types/theme"
+import Logo from "../Logo/Logo"
 
 import sunIcon from '@/assets/icons/sol.svg'
 import moonIcon from '@/assets/icons/moon.svg'
@@ -43,11 +44,28 @@ const Header = () => {
   }
 
   return (
-    <header id='header' className="bg-background">
-      <button aria-label={isOpen ? t('menuClose') : t('menuOpen')} onClick={() => { toggleMenu() }} ><img src={burguerMenu} alt="" /></button>
-      <button onClick={() => { toggleLanguage() }}>{i18n.resolvedLanguage?.toUpperCase()}</button>
+    <header id='header' className=" border-2 border-amber-950 p-5 bg-background flex flex-row gap-1 items-center justify-between">
+
+<div className="size-auto">
+  <Logo className="size-8 text-action"/>
+</div>
+
+      <button 
+      className="hidden max-lg:block"
+      aria-label={isOpen ? t('menuClose') : t('menuOpen')} 
+      onClick={() => { toggleMenu() }} 
+      >
+        <img src={burguerMenu} alt="" />
+        </button>
+      
       <Navbar />
-      <div>
+      <div className="flex flex-row gap-2 size-auto">
+        <button 
+        onClick={() => { toggleLanguage() }}
+        className="p-3 size-10 text-center  bg-pink-400"
+        >
+          {i18n.resolvedLanguage?.toUpperCase()}
+          </button>
         <button
           aria-label={t('${themeButtons[theme].label}')}
           onClick={() => { changeTheme() }}

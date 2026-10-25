@@ -13,10 +13,15 @@ const Navbar = () => {
   ];
 
   return (
-    <nav aria-label={t('navAriaLabel', { ns: 'common' })}>
-      <ul>
+    <nav 
+    aria-label={t('navAriaLabel', { ns: 'common' })}
+    className=''
+    >
+      <ul className='flex flex-row gap-2 p-2 border-amber-300 border-2'>
         {links.map(({ key, href }) => (
-          <li key={key}>
+          <li key={key}
+          className='p-3'
+          >
             <a href={href}>
               {t(`nav.${key}`, { ns: 'translation' })}
             </a>
