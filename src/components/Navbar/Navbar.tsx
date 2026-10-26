@@ -15,14 +15,15 @@ const Navbar = () => {
   return (
     <nav 
     aria-label={t('navAriaLabel', { ns: 'common' })}
-    className=''
+    className='max-lg:w-full max-lg:p-3'
     >
-      <ul className='flex flex-row gap-2 p-2 border-amber-300 border-2'>
+      <ul className='w-auto flex flex-row gap-3 p-2 max-lg:flex-col'>
         {links.map(({ key, href }) => (
           <li key={key}
-          className='p-3'
+          className='p-2 text-sm font-semibold bg-transparent rounded-lg cursor-pointer max-lg:w-full'
           >
-            <a href={href}>
+            <a href={href} 
+              className='text-text-primary'>
               {t(`nav.${key}`, { ns: 'translation' })}
             </a>
           </li>

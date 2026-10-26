@@ -10,7 +10,7 @@ interface SocialProps {
   icon: string
 }
 
-const SocialLink = ({ socialType, className }: { socialType: Social, className: string }) => {
+const SocialLink = ({ socialType }: { socialType: Social}) => {
 
   const { t } = useTranslation('common')
 
@@ -31,7 +31,7 @@ const SocialLink = ({ socialType, className }: { socialType: Social, className: 
 
   return (
     <a
-      className={className}
+      className=""
       href={socialData[socialType].url}
       aria-label={t(socialType)}
       {...socialType !== 'email' ? {rel: 'noopener no-referrer', target: '_blank'} : {}}

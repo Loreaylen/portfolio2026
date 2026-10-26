@@ -10,7 +10,7 @@ const Hero = () => {
   const language:string = i18n.resolvedLanguage || 'en'
 
   return (
-    <section id='hero' className="bg-background">
+    <section id='home' className=" bg-background">
       <div className='title-container'>
         <h1>{t('hero.title', {ns:'translation'})}</h1>
         <h2>{t('hero.role',{ns:'translation'})}</h2>
