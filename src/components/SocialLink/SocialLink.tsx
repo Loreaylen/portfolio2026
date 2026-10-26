@@ -31,12 +31,12 @@ const SocialLink = ({ socialType }: { socialType: Social}) => {
 
   return (
     <a
-      className=""
+      className="border-2 border-amber-600 p-6"
       href={socialData[socialType].url}
       aria-label={t(socialType)}
       {...socialType !== 'email' ? {rel: 'noopener no-referrer', target: '_blank'} : {}}
     >
-      <img src={socialData[socialType].icon} alt="" />
+      <img src={socialData[socialType].icon} alt="" className='size-20' />
     </a>
   )
 }

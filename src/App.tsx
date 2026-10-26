@@ -15,7 +15,7 @@ function App() {
     <>
     <ThemeProvider>
       <Header /> 
-      <main>
+      <main className='p-5'>
         <Hero/>
         <About/>
         <Experience/>

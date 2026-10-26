@@ -51,14 +51,14 @@ const Header = () => {
       </div>
 
       <button
-        className="hidden max-lg:block max-lg:p-2 max-lg:size-13"
+        className="hidden max-lg:block max-lg:p-2 max-lg:size-13 cursor-pointer"
         aria-label={isOpen ? t('menuClose') : t('menuOpen')}
         onClick={() => { toggleMenu() }}
       >
         <img src={burguerMenu} alt="" />
       </button>
 
-      <aside className="grow flex bg-background flex-row items-center justify-between gap-10 max-lg:h-fit max-lg:w-50 max-lg:fixed max-lg:flex-col max-lg:top-20 max-lg:right-0 max-lg:border-l max-lg:border-b  border-border max-lg:pb-5 max-lg:bg-cards">
+      <aside className={`${isOpen ? 'max-lg:fixed' : 'max-lg:hidden'} grow flex bg-background flex-row items-center justify-between gap-10 max-lg:h-[90%] max-lg:w-50 max-lg:flex-col max-lg:top-20 max-lg:right-0 max-lg:border-l max-lg:border-b border-border max-lg:pb-5 max-lg:bg-cards`}>
         <Navbar />
 
         <div className="flex items-center gap-5">
