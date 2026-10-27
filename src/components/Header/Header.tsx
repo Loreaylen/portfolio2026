@@ -1,17 +1,17 @@
 import Navbar from "../Navbar/Navbar"
 import { useTranslation } from "react-i18next"
-import { useState, useContext } from "react"
+import { useState, useContext, type ComponentType, type SVGProps } from "react"
 import { ThemeContext } from '@/context/ThemeContext'
 import type { Theme } from "@/types/theme"
 import Logo from "../Logo/Logo"
 
-import sunIcon from '@/assets/icons/sol.svg'
-import moonIcon from '@/assets/icons/moon.svg'
-import burguerMenu from '@/assets/icons/burgerMenu.svg'
+import sunIcon from '@/assets/icons/sol.svg?react'
+import moonIcon from '@/assets/icons/moon.svg?react'
+import BurguerMenu from '@/assets/icons/burgerMenu.svg?react'
 
 interface ThemeButton {
   label: string,
-  icon: string
+  icon: ComponentType<SVGProps<SVGSVGElement>>
 }
 
 const Header = () => {
@@ -28,8 +28,9 @@ const Header = () => {
       label: 'themeDark',
       icon: moonIcon
     }
-
   }
+
+  const ThemeIcon = themeButtons[theme].icon
 
   const toggleLanguage = () => {
     const currentLanguage: string | undefined = i18n.resolvedLanguage
@@ -55,10 +56,10 @@ const Header = () => {
         aria-label={isOpen ? t('menuClose') : t('menuOpen')}
         onClick={() => { toggleMenu() }}
       >
-        <img src={burguerMenu} alt="" />
+        <BurguerMenu className="size-9 text-action"/>
       </button>
 
-      <aside className={`${isOpen ? 'max-lg:fixed' : 'max-lg:hidden'} grow flex bg-background flex-row items-center justify-between gap-10 max-lg:h-[90%] max-lg:w-50 max-lg:flex-col max-lg:top-20 max-lg:right-0 max-lg:border-l max-lg:border-b border-border max-lg:pb-5 max-lg:bg-cards`}>
+      <aside className={`${isOpen ? 'max-lg:fixed' : 'max-lg:hidden'} grow flex bg-background flex-row items-center justify-between gap-10 max-lg:h-[calc(100dvh-5rem)] max-lg:w-50 max-lg:flex-col max-lg:bottom-0 max-lg:right-0 max-lg:border-l max-lg:border-b border-border max-lg:pb-5 max-lg:bg-cards`}>
         <Navbar />
 
         <div className="flex items-center gap-5">
@@ -71,9 +72,9 @@ const Header = () => {
           <button
             aria-label={t('${themeButtons[theme].label}')}
             onClick={() => { changeTheme() }}
-            className="cursor-pointer p-2 size-11 rounded-lg border-2 border-border bg-cards"
+            className="cursor-pointer px-1 size-11 rounded-lg border-2 border-border bg-cards"
           >
-            <img src={themeButtons[theme].icon} alt="" className="bg-accent" />
+            <ThemeIcon className="text-action size-8" />
           </button>
         </div>
       </aside>
