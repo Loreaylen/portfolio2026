@@ -9,6 +9,13 @@
   --color-text-secondary:var(--ui-text-sec);
   --color-action:var(--ui-accent) ;
   --color-link:var(--ui-link) ;
+
+  /*Fuentes*/
+  --font-dm-sans: "DM Sans", sans-serif
+  --font-manrope: "Manrope", sans-serif;
+  --font-jakarta: "Plus Jakarta Sans", sans-serif;
+  --font-onest:  "Onest", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
 }
 
 :root {

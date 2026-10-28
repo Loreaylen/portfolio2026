@@ -23,7 +23,7 @@ const Navbar = () => {
           className='p-2 text-sm font-semibold bg-transparent rounded-lg cursor-pointer max-lg:w-full'
           >
             <a href={href} 
-              className='text-text-primary'>
+              className='text-text-primary font-dm-sans text-base'>
               {t(`nav.${key}`, { ns: 'translation' })}
             </a>
           </li>
