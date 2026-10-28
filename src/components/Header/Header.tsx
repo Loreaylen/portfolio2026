@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next"
 import { useState, useContext, type ComponentType, type SVGProps } from "react"
 import { ThemeContext } from '@/context/ThemeContext'
 import type { Theme } from "@/types/theme"
+import matchQuery from "@/hooks/matchQuery"
 import Logo from "../Logo/Logo"
 
 import sunIcon from '@/assets/icons/sol.svg?react'
@@ -14,9 +15,17 @@ interface ThemeButton {
   icon: ComponentType<SVGProps<SVGSVGElement>>
 }
 
+
 const Header = () => {
+
   const { i18n, t } = useTranslation('common')
   const [isOpen, setIsOpen] = useState(false)
+  const isDesktop = matchQuery("(width >= 1024px)")
+
+  if (isDesktop && isOpen) {
+    setIsOpen(false)
+  }
+
   const { theme, changeTheme } = useContext(ThemeContext)
 
   const themeButtons: Record<Theme, ThemeButton> = {
@@ -46,7 +55,6 @@ const Header = () => {
 
   return (
     <header id='header' className="h-20 p-5 bg-background flex flex-row gap-2 items-center justify-between border-b border-border fixed w-screen">
-
       <div className="size-auto">
         <Logo className="size-12 text-action" />
       </div>
@@ -56,7 +64,7 @@ const Header = () => {
         aria-label={isOpen ? t('menuClose') : t('menuOpen')}
         onClick={() => { toggleMenu() }}
       >
-        <BurguerMenu className="size-9 text-action"/>
+        <BurguerMenu className="size-9 text-action" />
       </button>
 
       <aside className={`${isOpen ? 'max-lg:fixed' : 'max-lg:hidden'} grow flex bg-background flex-row items-center justify-between gap-10 max-lg:h-[calc(100dvh-5rem)] max-lg:w-50 max-lg:flex-col max-lg:bottom-0 max-lg:right-0 max-lg:border-l max-lg:border-b border-border max-lg:pb-5 max-lg:bg-cards`}>
@@ -78,7 +86,6 @@ const Header = () => {
           </button>
         </div>
       </aside>
-
     </header>
   )
 }
