@@ -4,8 +4,8 @@ import { useState, useContext, type ComponentType, type SVGProps } from "react"
 import { ThemeContext } from '@/context/ThemeContext'
 import type { Theme } from "@/types/theme"
 import matchQuery from "@/hooks/matchQuery"
-import Logo from "../Logo/Logo"
 
+import Logo from "@/assets/icons/logo.svg?react"
 import sunIcon from '@/assets/icons/sol.svg?react'
 import moonIcon from '@/assets/icons/moon.svg?react'
 import BurguerMenu from '@/assets/icons/burgerMenu.svg?react'
