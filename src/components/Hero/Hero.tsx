@@ -10,7 +10,7 @@ const Hero = () => {
   const language:string = i18n.resolvedLanguage || 'en'
 
   return (
-    <section id='home' className="mt-15 p-10 flex flex-col align-center justify-center">
+    <section id='home' className="bg-background mt-15 p-15 flex flex-col align-center justify-center">
       <div className='text-center flex flex-col gap-4 py-5'>
         <h1 className="text-action text-6xl max-lg:text-4xl">{t('hero.title', {ns:'translation'})}</h1>
         <h2 className="text-text-primary text-2xl max-lg:text-2xl">{t('hero.role',{ns:'translation'})}</h2>

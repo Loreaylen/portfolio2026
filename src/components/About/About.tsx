@@ -7,9 +7,9 @@ const About = () => {
   const paragraphs = t('about.paragraphs', { ns:'translation', returnObjects: true }) as Array<string>
 
   return (
-    <section id='about'>
-      <div><img src={avatar} alt={t('aboutImageAlt', {ns: 'common'})} /></div>
-      <div>
+    <section id='about' className="p-5 flex flex-row gap-2 items-center bg-cards max-lg:flex-col">
+      <div className="p-5"><img className="rounded-full" src={avatar} alt={t('aboutImageAlt', {ns: 'common'})} /></div>
+      <div className="text-text-primary p-5 flex flex-col gap-5 text-lg max-lg:text-sm">
         {
           paragraphs.map((text: string, i:number) => <p key={i}>{text}</p>)
         }

@@ -15,7 +15,7 @@ function App() {
     <>
     <ThemeProvider>
       <Header /> 
-      <main className='p-5 bg-background'>
+      <main className='py-5'>
         <Hero/>
         <About/>
         <Experience/>
