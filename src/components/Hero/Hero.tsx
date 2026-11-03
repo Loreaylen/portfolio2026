@@ -10,13 +10,13 @@ const Hero = () => {
   const language:string = i18n.resolvedLanguage || 'en'
 
   return (
-    <section id='home' className=" bg-background">
+    <section id='home' className="mt-15 flex flex-col align-center justify-center">
       <div className='title-container'>
         <h1>{t('hero.title', {ns:'translation'})}</h1>
         <h2>{t('hero.role',{ns:'translation'})}</h2>
         <span>{t('hero.focus',{ns:'translation'})}</span>
       </div>
-      <div className='actions-container'>
+      <div className='border border-green-700 flex flex-row justify-center align-center gap-3'>
         <SocialLink socialType='github'/>
         <SocialLink socialType='linkedin'/>
         <a href={language === 'en' ? cvEn : cvEs} download aria-label={t('downloadCvAria', {ns:'common'})}>{t('downloadCv', {ns:'common'})}</a>

@@ -15,7 +15,7 @@ function App() {
     <>
     <ThemeProvider>
       <Header /> 
-      <main className='p-5'>
+      <main className='p-5 bg-background'>
         <Hero/>
         <About/>
         <Experience/>

@@ -1,13 +1,14 @@
 import { useTranslation } from 'react-i18next'
-import githubIcon from '@/assets/icons/github.png'
-import linkedinIcon from '@/assets/icons/linkedin.png'
-import emailIcon from '@/assets/icons/gmail.png'
+import { type ComponentType, type SVGProps } from 'react'
+import githubIcon from '@/assets/icons/github-brands-solid-full.svg?react'
+import linkedinIcon from '@/assets/icons/linkedin-in-brands-solid-full.svg?react'
+import emailIcon from '@/assets/icons/envelope-solid-full.svg?react'
 
 type Social = "github" | "linkedin" | "email"
 
 interface SocialProps {
   url: string,
-  icon: string
+  icon: ComponentType<SVGProps<SVGSVGElement>>
 }
 
 const SocialLink = ({ socialType }: { socialType: Social}) => {
@@ -29,14 +30,16 @@ const SocialLink = ({ socialType }: { socialType: Social}) => {
     }
   }
 
+  const SocialIcon = socialData[socialType].icon
+
   return (
     <a
-      className="border-2 border-amber-600 p-6"
+      className="border-2 rounded-full border-border size-auto p-2"
       href={socialData[socialType].url}
       aria-label={t(socialType)}
       {...socialType !== 'email' ? {rel: 'noopener no-referrer', target: '_blank'} : {}}
     >
-      <img src={socialData[socialType].icon} alt="" className='size-20' />
+      <SocialIcon className='size-8 text-link' />
     </a>
   )
 }
