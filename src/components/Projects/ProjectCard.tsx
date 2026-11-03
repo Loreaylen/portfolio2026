@@ -1,6 +1,6 @@
 import type { ProjectData } from "@/components/Projects/projects.types";
 import type { Action } from "@/types/actions";
-import githubIcon from "@/assets/icons/github.png"
+import githubIcon from "@/assets/icons/github-brands-solid-full.svg"
 import siteIcon from "@/assets/icons/web.svg"
 import demoIcon from "@/assets/icons/play.svg"
 import ActionLink from "../ActionLink/ActionLink";

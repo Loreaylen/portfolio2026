@@ -10,16 +10,22 @@ const Hero = () => {
   const language:string = i18n.resolvedLanguage || 'en'
 
   return (
-    <section id='home' className="mt-15 flex flex-col align-center justify-center">
-      <div className='title-container'>
-        <h1>{t('hero.title', {ns:'translation'})}</h1>
-        <h2>{t('hero.role',{ns:'translation'})}</h2>
-        <span>{t('hero.focus',{ns:'translation'})}</span>
+    <section id='home' className="mt-15 p-10 flex flex-col align-center justify-center">
+      <div className='text-center flex flex-col gap-4 py-5'>
+        <h1 className="text-action text-6xl max-lg:text-4xl">{t('hero.title', {ns:'translation'})}</h1>
+        <h2 className="text-text-primary text-2xl max-lg:text-2xl">{t('hero.role',{ns:'translation'})}</h2>
+        <span className="text-text-secondary text-base max-lg:text-base">{t('hero.focus',{ns:'translation'})}</span>
       </div>
-      <div className='border border-green-700 flex flex-row justify-center align-center gap-3'>
+      <div className='flex flex-row justify-center align-center gap-3 py-5'>
         <SocialLink socialType='github'/>
         <SocialLink socialType='linkedin'/>
-        <a href={language === 'en' ? cvEn : cvEs} download aria-label={t('downloadCvAria', {ns:'common'})}>{t('downloadCv', {ns:'common'})}</a>
+        <a 
+        className="bg-link text-background rounded-md px-3 flex items-center text-sm"
+        href={language === 'en' ? cvEn : cvEs} 
+        download aria-label={t('downloadCvAria', {ns:'common'})}
+        >
+          {t('downloadCv', {ns:'common'})}
+        </a>
       </div>
     </section>
   )

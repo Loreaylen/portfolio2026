@@ -70,17 +70,17 @@ const Header = () => {
       <aside className={`${isOpen ? 'max-lg:fixed' : 'max-lg:hidden'} grow flex bg-background flex-row items-center justify-between gap-10 max-lg:h-[calc(100dvh-5rem)] max-lg:w-50 max-lg:flex-col max-lg:bottom-0 max-lg:right-0 max-lg:border-l max-lg:border-b border-border max-lg:pb-5 max-lg:bg-cards`}>
         <Navbar />
 
-        <div className="flex items-center gap-5">
+        <div className="flex items-center gap-5 px-5 max-lg:gap-7">
           <button
             onClick={() => { toggleLanguage() }}
-            className="p-2 size-11 text-lg rounded-lg text-cards border-border bg-action cursor-pointer"
+            className="p-2 size-11 text-lg rounded-full text-cards border-border bg-action cursor-pointer"
           >
             {i18n.resolvedLanguage?.toUpperCase()}
           </button>
           <button
             aria-label={t('${themeButtons[theme].label}')}
             onClick={() => { changeTheme() }}
-            className="cursor-pointer px-1 size-11 rounded-lg border-2 border-border bg-cards"
+            className="cursor-pointer px-1 size-11 rounded-full border-2 border-border bg-cards"
           >
             <ThemeIcon className="text-action size-8" />
           </button>
