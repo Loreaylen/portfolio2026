@@ -8,9 +8,9 @@ const Projects = () => {
   const projects = t('projects', { returnObjects: true }) as Array<ProjectData>
 
   return (
-    <section id='projects'>
-      <h2>{t('title')}</h2>
-      <div>
+    <section id='projects' className="bg-background p-5">
+      <h2 className="text-text-primary text-3xl max-lg:text-2xl">{t('title')}</h2>
+      <div className="flex flex-row flex-wrap">
         {
           projects.map((project: ProjectData, i: number) => {
             return (<ProjectCard project={project} key={i} i={i}  /> )
