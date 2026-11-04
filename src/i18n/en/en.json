@@ -14,6 +14,7 @@
     "focus": "Focused on frontend development with React and TypeScript"
   },
   "about": {
+    "title": "About me",
     "paragraphs": [
       "I'm a Fullstack Developer focused on frontend development, with experience working with React and TypeScript. Throughout my career in IT, I've worked across different areas, including development, QA, functional analysis, and integrations.",
       "My experience has allowed me to understand different stages of the software development process and how a business need can be transformed into a technical solution.",

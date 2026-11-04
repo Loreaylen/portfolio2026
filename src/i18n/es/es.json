@@ -14,6 +14,7 @@
     "focus": "Enfocada en desarrollo frontend con React y TypeScript"
   },
   "about": {
+    "title": "Sobre mí",
     "paragraphs": [
       "Soy desarrolladora Fullstack enfocada en frontend, con experiencia trabajando con React y TypeScript. A lo largo de mi carrera en TI, he trabajado en distintas áreas, incluyendo desarrollo, QA, análisis funcional e integraciones.",
       "Mi experiencia me permitió entender diferentes etapas del proceso de desarrollo de software y cómo una necesidad de negocio puede transformarse en una solución técnica.",

@@ -54,7 +54,7 @@ const Header = () => {
   }
 
   return (
-    <header id='header' className="h-20 p-5 bg-background flex flex-row gap-2 items-center justify-between border-b border-border fixed w-screen">
+    <header id='header' className="h-20 p-5 bg-background flex flex-row gap-2 items-center justify-between border-b border-border fixed w-screen z-50">
       <div className="size-auto">
         <Logo className="size-12 text-action" />
       </div>

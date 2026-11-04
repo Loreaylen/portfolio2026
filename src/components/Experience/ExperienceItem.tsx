@@ -1,0 +1,19 @@
+import type { ExperienceData } from "./experience.types"
+
+const ExperienceItem = ({job}: {job: ExperienceData}) => {
+
+  return(
+    <li className="mb-10 ms-4">
+        <div className="absolute w-3 h-3 bg-action rounded-full mt-1.5 -left-1.5 border border-buffer border-action"></div>
+        <time className="text-sm font-normal leading-none text-body text-text-primary">{job.period}</time>
+        <h3 className="text-lg font-semibold text-heading my-2 text-text-primary">{job.position} - {job.company} </h3>
+        <ul className="mb-4 text-base font-normal text-body text-text-primary">
+              {
+                job.responsibilities.map((bullet, i) =>
+                  <li key={i}>{bullet}</li>)
+              }
+            </ul>
+    </li>
+  )
+}
+export default ExperienceItem
