@@ -33,24 +33,20 @@
   },
   "footer": {
     "copyright": "© 2026 Aylen. Todos los derechos reservados.",
-    "attributionsTitle": "Atribuciones de íconos",
+    "attributionsTitle": "Iconos",
     "attributions": [
-      {
-        "text": "GitHub, LinkedIn y Mail — <a>Font Awesome</a>",
-        "url": "https://fontawesome.com/"
-      },
-      {
-        "text": "React — <a> pocike (Flaticon)</a>",
-        "url": "https://www.flaticon.com/authors/pocike"
-      },
-      {
-        "text": "JavaScript, TypeScript, HTML5, CSS3, MySQL, SQL Server y Node.js — <a> Magnific (Flaticon)</a>",
-        "url": "https://www.flaticon.com/authors/magnific"
-      },
-      {
-        "text": "Express.js, Git y Visual Studio Code — <a> Icons8</a>",
-        "url": "https://icons8.com"
-      }
-    ]
+  {
+    "text": "GitHub, LinkedIn, Mail, React, JavaScript, TypeScript, HTML5, CSS3, Node.js, Git y Visual Studio Code — <a>Font Awesome</a>",
+    "url": "https://fontawesome.com/"
+  },
+  {
+    "text": "MySQL y Express.js — <a>Simple Icons</a>",
+    "url": "https://simpleicons.org/"
+  },
+  {
+    "text": "SQL Server — <a>SVG Repo</a>",
+    "url": "https://www.svgrepo.com/"
+  }
+]
   }
 }
