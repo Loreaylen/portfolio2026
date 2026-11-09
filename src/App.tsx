@@ -4,7 +4,6 @@ import About from './components/About/About'
 import Experience from './components/Experience/Experience.tsx'
 import Projects from './components/Projects/Projects.tsx'
 import Skills from './components/Skills/Skills.tsx'
-import Education from './components/Education/Education.tsx'
 import Contact from './components/Contact/Contact.tsx'
 import Footer from './components/Footer/Footer.tsx'
 import ThemeProvider from './context/ThemeContext.tsx'
@@ -21,7 +20,6 @@ function App() {
         <Experience/>
         <Projects/>
         <Skills/>
-        <Education/>
         <Contact/>
       </main>
       <Footer/>

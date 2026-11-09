@@ -8,7 +8,6 @@ const Navbar = () => {
     { key: 'about', href: '#about' },
     { key: 'experience', href: '#experience' },
     { key: 'projects', href: '#projects' },
-    { key: 'education', href: '#education' },
     { key: 'contact', href: '#contact' }
   ];
 
