@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Section } from "../ui/Section";
 import type { ProjectData } from "@/components/Projects/projects.types";
 import ProjectCard from "./ProjectCard"
 
@@ -8,7 +9,7 @@ const Projects = () => {
   const projects = t('projects', { returnObjects: true }) as Array<ProjectData>
 
   return (
-    <section id='projects' className="bg-background p-5">
+    <Section id='projects' className="bg-background">
       <h2 className="text-text-primary text-3xl max-lg:text-2xl">{t('title')}</h2>
       <div className="flex flex-row flex-wrap">
         {
@@ -17,7 +18,7 @@ const Projects = () => {
           })
         }
       </div>
-    </section>
+    </Section>
   )
 }
 

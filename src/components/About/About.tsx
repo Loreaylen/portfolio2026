@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Section } from "../ui/Section";
 import avatar from '@/assets/img/avatar_v2.webp'
 
 const About = () => {
@@ -7,7 +8,7 @@ const About = () => {
   const paragraphs = t('about.paragraphs', { ns:'translation', returnObjects: true }) as Array<string>
 
   return (
-    <section id='about' className="p-5 bg-cards">
+    <Section id='about' className="bg-cards">
       <h2 className="text-text-primary text-3xl max-lg:text-2xl">{t('about.title')}</h2>
       <div className="flex flex-row gap-2 items-center  max-lg:flex-col">
       <div className="p-5"><img className="rounded-full" src={avatar} alt={t('aboutImageAlt', {ns: 'common'})} /></div>
@@ -17,7 +18,7 @@ const About = () => {
         }
       </article>
       </div>
-    </section>
+    </Section>
   )
 }
 
