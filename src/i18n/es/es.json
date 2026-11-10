@@ -9,9 +9,9 @@
     "contact": "Contacto"
   },
   "hero": {
-    "title": "Mi nombre es Aylen Gil",
+    "title": "¡Hola! Mi nombre es <span>Aylen Gil</span>",
     "role": "Soy desarrolladora FullStack",
-    "focus": "Enfocada en desarrollo frontend con React y TypeScript"
+    "focus": "Con más de 3 años de experiencia en IT, actualmente orientada al desarrollo frontend con React y TypeScript."
   },
   "about": {
     "title": "Sobre mí",

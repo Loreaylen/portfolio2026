@@ -6,18 +6,18 @@ import avatar from '@/assets/img/avatar_v2.webp'
 const About = () => {
   const { t } = useTranslation(['translation', 'common'])
 
-  const paragraphs = t('about.paragraphs', { ns:'translation', returnObjects: true }) as Array<string>
+  const paragraphs = t('about.paragraphs', { ns: 'translation', returnObjects: true }) as Array<string>
 
   return (
     <Section id='about' className="bg-cards">
       <Heading>{t('about.title')}</Heading>
       <div className="flex flex-row gap-2 items-center  max-lg:flex-col">
-      <div className="p-5"><img className="rounded-full" src={avatar} alt={t('aboutImageAlt', {ns: 'common'})} /></div>
-      <article className="text-text-primary p-5 flex flex-col gap-5 text-lg max-lg:text-sm">
-        {
-          paragraphs.map((text: string, i:number) => <p key={i}>{text}</p>)
-        }
-      </article>
+        <div className="p-5"><img className="rounded-full max-sm:w-full max-w-sm" src={avatar} alt={t('aboutImageAlt', { ns: 'common' })} /></div>
+        <article className="text-text-primary p-5 flex flex-col gap-5 text-lg max-lg:text-sm">
+          {
+            paragraphs.map((text: string, i: number) => <p key={i}>{text}</p>)
+          }
+        </article>
       </div>
     </Section>
   )

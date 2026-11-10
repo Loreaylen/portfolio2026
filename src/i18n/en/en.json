@@ -9,9 +9,9 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "My name is Aylen Gil",
+    "title": "Hi! My name is <span>Aylen Gil</span>",
     "role": "I'm a FullStack Developer",
-    "focus": "Focused on frontend development with React and TypeScript"
+    "focus": "With over 3 years of experience in IT, currently focused on frontend development with React and TypeScript."
   },
   "about": {
     "title": "About me",

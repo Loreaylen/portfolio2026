@@ -8,7 +8,7 @@ interface SectionProps extends PropsWithChildren {
 const Section = ({children, className, id}: SectionProps) => {
 
   return(
-    <section  id={id} className={`p-5 ${className}`}>
+    <section id={id} className={`p-5 ${className}`}>
       {children}
     </section>
   )
