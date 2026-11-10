@@ -5,7 +5,7 @@ interface SectionProps extends PropsWithChildren {
   id?:string
 }
 
-export const Section = ({children, className, id}: SectionProps) => {
+const Section = ({children, className, id}: SectionProps) => {
 
   return(
     <section  id={id} className={`p-5 ${className}`}>
@@ -13,3 +13,4 @@ export const Section = ({children, className, id}: SectionProps) => {
     </section>
   )
 }
+export default Section

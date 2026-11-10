@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next"
 import { useState } from "react"
-import { Section } from "../ui/Section";
+import Section from "../ui/Section";
+import Heading from "../ui/Heading";
 import skillsData from '@/assets/data/skills.json'
 
 type Category = "frontend" | "backend" | "database" | "tools"
@@ -26,7 +27,7 @@ const Skills = () => {
 
   return (
     <Section id='skills' className="bg-cards">
-      <h2 className="text-text-primary text-3xl max-lg:text-2xl">{t('title')}</h2>
+      <Heading>{t('title')}</Heading>
       <div className="p-3 flex flex-row gap-3 flex-wrap">
         {categories.map((category: Category) => {
           return (

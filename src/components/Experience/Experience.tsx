@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import type { ExperienceData } from "@/components/Experience/experience.types";
-import { Section } from "../ui/Section";
+import Section  from "../ui/Section";
+import Heading from "../ui/Heading";
 import ExperienceItem from "./ExperienceItem";
 
 const Experience = () => {
@@ -10,7 +11,7 @@ const Experience = () => {
 
   return (
     <Section id="experience" className="bg-background">
-      <h2 className="text-3xl mb-3 text-text-primary">{t('experience.title', {ns:'translation'})}</h2>
+      <Heading>{t('experience.title', {ns:'translation'})}</Heading>
       <ol className="relative border-s border-action">
       {
         jobs.map((job: ExperienceData, i: number) => (
