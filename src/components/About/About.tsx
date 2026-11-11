@@ -11,9 +11,9 @@ const About = () => {
   return (
     <Section id='about' className="">
       <Heading>{t('about.title')}</Heading>
-      <div className="flex flex-row gap-2 items-center  max-lg:flex-col">
-        <div className="p-5  rounded-full relative avatar-frame before:animate-custom-spin after:animate-custom-spin-reverse">
-          <img className="rounded-full max-sm:w-full max-w-sm" src={avatar} alt={t('aboutImageAlt', { ns: 'common' })} />
+      <div className="flex flex-row gap-2 items-center  max-lg:flex-col overflow-hidden">
+        <div className="p-5 rounded-full relative avatar-frame before:animate-custom-spin after:animate-custom-spin-reverse">
+          <img className="rounded-full max-sm:w-full max-w-xs" src={avatar} alt={t('aboutImageAlt', { ns: 'common' })} />
         </div>
         <article className="text-text-primary p-5 flex flex-col gap-5 text-lg max-lg:text-sm">
           {

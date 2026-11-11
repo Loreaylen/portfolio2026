@@ -25,7 +25,7 @@
   /*Animaciones*/
 
   --animate-custom-spin: rotate-center 4s ease-in-out infinite both;
-  --animate-custom-spin-reverse: rotate-center 4s  ease-in-out 1.5s infinite reverse both;
+  --animate-custom-spin-reverse: rotate-center 4s ease-in-out 1.5s infinite reverse both;
   --animate-pulse512: pulse512 1.5s infinite;
 
   @keyframes pulse512 {
@@ -91,7 +91,7 @@ linear-gradient(to right, var(--color-action) 1px, transparent 1px);
   background-size: 3rem 3rem;
   background-color: var(--color-background);
   opacity: 0.25;
-mask-image: radial-gradient(
+  mask-image: radial-gradient(
     ellipse 70% 50% at 50% 0%,
     #000 60%,
     transparent 100%)
@@ -102,8 +102,8 @@ mask-image: radial-gradient(
   border-radius: 999px;
   display: block;
   position: absolute;
-  top: 9px;
-  left: 9px;
+  top: 2%;
+  left: 2%;
   height: 96%;
   width: 96%;
   background: conic-gradient(
