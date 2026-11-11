@@ -13,6 +13,8 @@
   --color-action-active:#BDF0C3;
   --color-action-glow:#75E68B;
 
+  --shadow-section:6px 6px 0px 0px rgba(124,111,255,1.00) ;
+
   /*Fuentes*/
   --font-dm-sans: "DM Sans", sans-serif
   --font-manrope: "Manrope", sans-serif;

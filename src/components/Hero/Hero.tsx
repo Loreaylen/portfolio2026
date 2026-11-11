@@ -18,7 +18,7 @@ const Hero = () => {
         <Trans
         parent='h1'
         components={{span: <span className="text-action italic font-onest"></span>}}
-         className="text-text-primary text-6xl max-lg:text-4xl font-jakarta font-bold">{t('hero.title')}</Trans>
+        className="text-text-primary text-6xl max-lg:text-4xl font-jakarta font-bold">{t('hero.title')}</Trans>
         <h2 className="text-text-primary text-2xl">{t('hero.role')}</h2>
         <span className="text-text-secondary text-base max-lg:text-base">{t('hero.focus')}</span>
       </div>

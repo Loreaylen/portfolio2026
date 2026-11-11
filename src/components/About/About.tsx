@@ -9,7 +9,7 @@ const About = () => {
   const paragraphs = t('about.paragraphs', { ns: 'translation', returnObjects: true }) as Array<string>
 
   return (
-    <Section id='about' className="bg-cards">
+    <Section id='about' className="">
       <Heading>{t('about.title')}</Heading>
       <div className="flex flex-row gap-2 items-center  max-lg:flex-col">
         <div className="p-5"><img className="rounded-full max-sm:w-full max-w-sm" src={avatar} alt={t('aboutImageAlt', { ns: 'common' })} /></div>
