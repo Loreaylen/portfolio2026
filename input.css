@@ -24,6 +24,8 @@
 
   /*Animaciones*/
 
+  --animate-custom-spin: rotate-center 4s ease-in-out infinite both;
+  --animate-custom-spin-reverse: rotate-center 4s  ease-in-out 1.5s infinite reverse both;
   --animate-pulse512: pulse512 1.5s infinite;
 
   @keyframes pulse512 {
@@ -39,7 +41,24 @@
       box-shadow: 0 0 0 0 rgb(117 230 139 / 0%);
     }
   }
+
+  @keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  50% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
+}
+
+
 
 :root {
   --ui-bg: #101211;
@@ -76,6 +95,51 @@ mask-image: radial-gradient(
     ellipse 70% 50% at 50% 0%,
     #000 60%,
     transparent 100%)
+}
+
+.avatar-frame::before {
+  content: '';
+  border-radius: 999px;
+  display: block;
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  height: 96%;
+  width: 96%;
+  background: conic-gradient(
+    from 219deg,
+    var(--color-cyan-400),
+    var(--color-action-glow) 45%,
+    transparent 45%
+  );
+  mask: radial-gradient(
+    farthest-side,
+    transparent calc(100% - 3px),
+    #fff calc(100% - 3px + 1px)
+  );
+
+}
+
+.avatar-frame::after {
+  content: '';
+  border-radius: 999px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: conic-gradient(
+    from 30deg,
+    var(--color-cyan-600),
+    var(--color-action-glow) 50%,
+    transparent 50%
+  );
+  mask: radial-gradient(
+    farthest-side,
+    transparent calc(100% - 3px),
+    #fff calc(100% - 3px + 1px)
+  );
 }
 
 }
