@@ -22,11 +22,11 @@ const Hero = () => {
         <h2 className="text-text-primary text-2xl">{t('hero.role')}</h2>
         <span className="text-text-secondary text-base max-lg:text-base">{t('hero.focus')}</span>
       </div>
-      <div className='z-10 flex flex-row justify-center align-center gap-3.5 py-5'>
+      <div className='z-10 flex flex-row flex-wrap justify-center align-center gap-3.5 py-5'>
         <SocialLink socialType='github'/>
         <SocialLink socialType='linkedin'/>
         <a 
-        className="bg-link text-background rounded-md px-3 flex items-center text-sm font-semibold font-jakarta hover:animate-pulse512 transition-all active:scale-95 active:shadow-[0_0_0_4px_greenyellow]"
+        className="bg-link text-background rounded-md w-30 h-12 p-2 flex items-center justify-center text-sm font-semibold font-jakarta hover:animate-pulse512 transition-all active:scale-95 active:shadow-[0_0_0_4px_greenyellow]"
         href={language === 'en' ? cvEn : cvEs} 
         download aria-label={t('downloadCvAria', {ns:'common'})}
         >

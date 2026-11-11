@@ -1,5 +1,7 @@
+import type { ComponentType, SVGProps } from "react"
+
 export interface Action  {
   url: 'githubUrl'| 'siteUrl' |'demoUrl',
-  icon: string,
+  icon: ComponentType<SVGProps<SVGSVGElement>>,
   label: string
 }

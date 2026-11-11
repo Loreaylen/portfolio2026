@@ -7,6 +7,8 @@ const ActionLink = ({ action, url }: { action: Action, url: string | null }) => 
   const { t } = useTranslation(['projects', 'common'])
   if (!url) return null
 
+  const Icon = action.icon
+
   return (
     <a 
     href={url} 
@@ -14,9 +16,12 @@ const ActionLink = ({ action, url }: { action: Action, url: string | null }) => 
     rel='noopener' 
     referrerPolicy="no-referrer" 
     aria-label={t(action.label, { ns: 'common' })}
-    className="size-12 rounded-full hover:outline-2 hover:outline-offset-2 hover:outline-link focus:outline-2 focus:outline-offset-2 focus:outline-action active:bg-text-secondary"
+    className=" focus:outline-action active:scale-95
+    hover:-translate-y-0.5
+    transition-all"
     >
-      <img src={action.icon} alt="" />
+      <Icon className="rounded-full size-11 text-cards bg-action hover:bg-action-hover transition-all ease-in-out-[0.3s]
+      active:shadow-[0_2px_10px_var(--color-text-secondary)]" />
     </a>
   )
 }
