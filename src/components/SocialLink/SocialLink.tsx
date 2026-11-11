@@ -7,6 +7,7 @@ import emailIcon from '@/assets/icons/envelope-solid-full.svg?react'
 type Social = "github" | "linkedin" | "email"
 
 interface SocialProps {
+  name: string
   url: string,
   icon: ComponentType<SVGProps<SVGSVGElement>>
 }
@@ -17,14 +18,17 @@ const SocialLink = ({ socialType }: { socialType: Social}) => {
 
   const socialData: Record<Social, SocialProps> = {
     linkedin: {
+      name: "LinkedIn",
       url: "https://www.linkedin.com/in/lorena-aylen-gil",
       icon: linkedinIcon
     },
     github: {
+      name: "Github",
       url: "https://github.com/Loreaylen",
       icon: githubIcon
     },
     email: {
+      name: "Email",
       url: "mailto:lorenaaylengil@gmail.com",
       icon: emailIcon
     }
@@ -34,12 +38,13 @@ const SocialLink = ({ socialType }: { socialType: Social}) => {
 
   return (
     <a
-      className="border-2 rounded-full border-border size-auto p-2"
+      className="border rounded-lg border-border w-30 h-12 p-2 flex flex-row gap-1 justify-center items-center hover:animate-pulse512 transition-all active:scale-95 active:shadow-[0_0_0_4px_greenyellow]"
       href={socialData[socialType].url}
       aria-label={t(socialType)}
       {...socialType !== 'email' ? {rel: 'noopener no-referrer', target: '_blank'} : {}}
     >
       <SocialIcon className='size-8 text-link' />
+      <span className='text-link font-bold'>{socialData[socialType].name}</span>
     </a>
   )
 }

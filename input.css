@@ -9,6 +9,9 @@
   --color-text-secondary:var(--ui-text-sec);
   --color-action:var(--ui-accent) ;
   --color-link:var(--ui-link) ;
+  --color-action-hover: #A5DFAF;
+  --color-action-active:#BDF0C3;
+  --color-action-glow:#75E68B;
 
   /*Fuentes*/
   --font-dm-sans: "DM Sans", sans-serif
@@ -16,6 +19,24 @@
   --font-jakarta: "Plus Jakarta Sans", sans-serif;
   --font-onest:  "Onest", sans-serif;
   --font-outfit: "Outfit", sans-serif;
+
+  /*Animaciones*/
+
+  --animate-pulse512: pulse512 1.5s infinite;
+
+  @keyframes pulse512 {
+    0% {
+      box-shadow: 0 0 0 0 var(--color-action-glow);
+    }
+
+    70% {
+      box-shadow: 0 0 0 10px rgb(117 230 139 / 0%);
+    }
+
+    100% {
+      box-shadow: 0 0 0 0 rgb(117 230 139 / 0%);
+    }
+  }
 }
 
 :root {
@@ -57,7 +78,4 @@ mask-image: radial-gradient(
 
 }
 
-/*
-  
-*/
 
