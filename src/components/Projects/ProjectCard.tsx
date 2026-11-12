@@ -42,7 +42,7 @@ const ProjectCard = ({ project, i }: { project: ProjectData; i: number }) => {
         }
       </div>
       <div className="px-5 mb-3">
-        <p className={`mb-6 text-text-primary ${expanded ? "line-clamp-none" : "line-clamp-3"}`}>{project.description}</p>
+        <p className={` mb-6 text-text-primary overflow-hidden transition-all ease-out-[5s] ${expanded ? "line-clamp-none max-h-100" : "line-clamp-3 max-h-30"}`}>{project.description}</p>
         <span onClick={() => setExpanded(prev => !prev)} className="cursor-pointer text-link transition-all hover:text-cyan-500 active:text-action-active">{expanded ? t('less') : t('more')}</span>
       </div>
       <div className="px-5 pb-3 flex flex-row gap-3 items-center justify-start">

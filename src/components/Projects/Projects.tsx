@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <Section id='projects' className="bg-background">
       <Heading>{t('title')}</Heading>
-      <div className="flex flex-row flex-wrap">
+      <div className="flex flex-row flex-wrap py-5">
         {
           projects.map((project: ProjectData, i: number) => {
             return (<ProjectCard project={project} key={i} i={i}  /> )
