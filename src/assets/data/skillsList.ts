@@ -1,3 +1,4 @@
+import type { Skill } from "@/types/skills"
 import htmlIcon from "/src/assets/icons/html5-brands-solid-full.svg?react"
 import cssIcon from "/src/assets/icons/css3-alt-brands-solid-full.svg?react"
 import javascriptIcon from "/src/assets/icons/js-brands-solid-full.svg?react"
@@ -10,7 +11,9 @@ import sqlServerIcon from "/src/assets/icons/microsoft-sql-server-logo.svg?react
 import gitIcon from "/src/assets/icons/git-alt-brands-solid-full.svg?react"
 import githubIcon from "/src/assets/icons/github-brands-solid-full.svg?react"
 import visualStudioCodeIcon from "/src/assets/icons/visual-studio-brands-solid-full.svg?react"
-import type { Skill } from "@/types/skills"
+import figmaIcon from "/src/assets/icons/figma-brands-solid-full.svg?react"
+import tailwindIcon from "/src/assets/icons/tailwind-css-brands-solid-full.svg?react"
+
 
 export const skillsList: Skill[] = [
     {
@@ -72,5 +75,15 @@ export const skillsList: Skill[] = [
       "name": "Visual Studio Code",
       "icon": visualStudioCodeIcon,
       "category": "tools"
+    },
+    {
+      "name": "Figma",
+      "icon": figmaIcon,
+      "category": "tools"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": tailwindIcon,
+      "category": "frontend"
     }
   ]
