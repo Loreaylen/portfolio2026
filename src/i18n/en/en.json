@@ -33,20 +33,6 @@
   },
   "footer": {
     "copyright": "© 2026 Aylen. All rights reserved.",
-    "attributionsTitle": "Icons",
-    "attributions":  [
-  {
-    "text": "GitHub, LinkedIn, Mail, React, JavaScript, TypeScript, HTML5, CSS3, Node.js, Git, and Visual Studio Code — <a>Font Awesome</a>",
-    "url": "https://fontawesome.com/"
-  },
-  {
-    "text": "MySQL and Express.js — <a>Simple Icons</a>",
-    "url": "https://simpleicons.org/"
-  },
-  {
-    "text": "SQL Server — <a>SVG Repo</a>",
-    "url": "https://www.svgrepo.com/"
-  }
-]
+    "attributionsTitle": "Icons"
   }
 }

@@ -94,7 +94,8 @@ linear-gradient(to right, var(--color-action) 1px, transparent 1px);
   mask-image: radial-gradient(
     ellipse 70% 50% at 50% 0%,
     #000 60%,
-    transparent 100%)
+    transparent 100%);
+background-position: center center;
 }
 
 .avatar-frame::before {

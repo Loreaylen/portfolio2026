@@ -36,7 +36,7 @@ const Skills = () => {
         }
       </div>
       <div className="max-w-4xl grid gap-2.5 grid-cols-6 max-sm:grid-cols-2 max-lg:grid-cols-4 
-      ">
+      mx-auto">
         {
           skillsList.map((skill: Skill, i: number) => {
             if (skill.category === selectedCategory || selectedCategory === null) {
